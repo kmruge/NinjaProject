@@ -12,16 +12,16 @@ public class HomePage {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	@FindBy(xpath="//span[text()='My Account']")
 	WebElement clickOnAccount;
-	
+
 	@FindBy(xpath="//a[text()='Login']")
 	WebElement clickOnLogin;
-	
+
 	@FindBy(xpath="//a[text()='Register']")
 	WebElement clickOnRegister;
-	
+
 	public void clickOnAccount()
 	{
 		clickOnAccount.click();

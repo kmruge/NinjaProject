@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\kmruge\eclipse-workspace\Ninja_Store_Project\src\test\resources\testng.xml</span>
+                    <span>C:\Users\VICKY\git\NinjaProject\src\test\resources\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,26 +93,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods, 2 failed,   11 passed</span>
+                    <span class="method-stats">18 methods,  3 skipped,  15 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content skipped suite-Suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestCase.Login_Test" class="method navigator-link" hash-for-method="verifyLoginWithInvalidCredential(void TestCase.Login_Test.verifyLoginWithInvalidCredential(java.lang.reflect.Method))">verifyLoginWithInvalidCredential(void TestCase.Login_Test.verifyLoginWithInvalidCredential(java.lang.reflect.Method))</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCase.Login_Test" class="method navigator-link" hash-for-method="verifyLoginWithValidCredential(muruTueJun06003141IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">verifyLoginWithValidCredential(muruTueJun06003141IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestCase.Login_Test" class="method navigator-link" hash-for-method="verifyLoginWithoutCredential(void TestCase.Login_Test.verifyLoginWithoutCredential(java.lang.reflect.Method))">verifyLoginWithoutCredential(void TestCase.Login_Test.verifyLoginWithoutCredential(java.lang.reflect.Method))</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -158,22 +163,42 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestCase.Login_Test" class="method navigator-link" hash-for-method="verifyLoginWithValidCredential(muruSatJun03153214IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">verifyLoginWithValidCredential(muruSatJun03153214IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="TestCase.Login_Test" class="method navigator-link" hash-for-method="verifyLoginWithValidCredential(muruSunJun04004336IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">verifyLoginWithValidCredential(muruSunJun04004336IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestCase.Login_Test" class="method navigator-link" hash-for-method="verifyLoginWithValidCredential(muruSatJun03153211IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">verifyLoginWithValidCredential(muruSatJun03153211IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="TestCase.Login_Test" class="method navigator-link" hash-for-method="verifyLoginWithValidCredential(muruSunJun04004330IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">verifyLoginWithValidCredential(muruSunJun04004330IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestCase.Login_Test" class="method navigator-link" hash-for-method="verifyLoginWithValidCredential(muruSatJun03153207IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">verifyLoginWithValidCredential(muruSatJun03153207IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="TestCase.Login_Test" class="method navigator-link" hash-for-method="verifyLoginWithValidCredential(muruTueJun06003130IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">verifyLoginWithValidCredential(muruTueJun06003130IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestCase.Login_Test" class="method navigator-link" hash-for-method="verifyLoginWithValidCredential(muruSatJun03153203IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">verifyLoginWithValidCredential(muruSatJun03153203IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="TestCase.Login_Test" class="method navigator-link" hash-for-method="verifyLoginWithValidCredential(muruSunJun04004308IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">verifyLoginWithValidCredential(muruSunJun04004308IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCase.Login_Test" class="method navigator-link" hash-for-method="verifyLoginWithValidCredential(muruSunJun04004323IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">verifyLoginWithValidCredential(muruSunJun04004323IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCase.Login_Test" class="method navigator-link" hash-for-method="verifyLoginWithValidCredential(muruTueJun06003135IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">verifyLoginWithValidCredential(muruTueJun06003135IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCase.Login_Test" class="method navigator-link" hash-for-method="verifyLoginWithValidCredential(muruTueJun06003124IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">verifyLoginWithValidCredential(muruTueJun06003124IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCase.Login_Test" class="method navigator-link" hash-for-method="verifyLoginWithValidCredential(muruSunJun04004316IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">verifyLoginWithValidCredential(muruSunJun04004316IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -188,9 +213,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">TestCase.Login_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -200,11 +225,63 @@
                   </a> <!-- verifyLoginWithInvalidCredential(void TestCase.Login_Test.verifyLoginWithInvalidCredential(java.lang.reflect.Method)) -->
                   <span class="method-name">verifyLoginWithInvalidCredential</span>
                   <span class="parameters">(void TestCase.Login_Test.verifyLoginWithInvalidCredential(java.lang.reflect.Method))</span>
-                  <div class="stack-trace">java.lang.AssertionError: Assertion Faile at void TestCase.Login_Test.verifyLoginWithInvalidCredential(java.lang.reflect.Method) expected [true] but found [false]
-	at Utility.Utilise1.VerificationAssertion(Utilise1.java:67)
-	at TestCase.Login_Test.verifyLoginWithInvalidCredential(Login_Test.java:50)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=109.0.5414.141)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4dc935af659312def80c0b5816acbd90, clickElement {id=f22f7f34-6ea4-4bff-8b4d-bd5502080b89}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.141, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\VICKY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61595}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61595/devtoo..., se:cdpVersion: 109.0.5414.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4dc935af659312def80c0b5816acbd90)] -&gt; xpath: //a[text()=&apos;Login&apos;]]
+Session ID: 4dc935af659312def80c0b5816acbd90
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at POM.HomePage.clickOnLogin(HomePage.java:31)
+	at TestCase.Login_Test.setUp(Login_Test.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredential(muruTueJun06003141IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">
+                  </a> <!-- verifyLoginWithValidCredential(muruTueJun06003141IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...) -->
+                  <span class="method-name">verifyLoginWithValidCredential</span>
+                  <span class="parameters">(muruTueJun06003141IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method))</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=109.0.5414.141)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4dc935af659312def80c0b5816acbd90, clickElement {id=f22f7f34-6ea4-4bff-8b4d-bd5502080b89}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.141, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\VICKY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61595}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61595/devtoo..., se:cdpVersion: 109.0.5414.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4dc935af659312def80c0b5816acbd90)] -&gt; xpath: //a[text()=&apos;Login&apos;]]
+Session ID: 4dc935af659312def80c0b5816acbd90
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at POM.HomePage.clickOnLogin(HomePage.java:31)
+	at TestCase.Login_Test.setUp(Login_Test.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -214,16 +291,35 @@
                   </a> <!-- verifyLoginWithoutCredential(void TestCase.Login_Test.verifyLoginWithoutCredential(java.lang.reflect.Method)) -->
                   <span class="method-name">verifyLoginWithoutCredential</span>
                   <span class="parameters">(void TestCase.Login_Test.verifyLoginWithoutCredential(java.lang.reflect.Method))</span>
-                  <div class="stack-trace">java.lang.AssertionError: Assertion Faile at void TestCase.Login_Test.verifyLoginWithoutCredential(java.lang.reflect.Method) expected [true] but found [false]
-	at Utility.Utilise1.VerificationAssertion(Utilise1.java:67)
-	at TestCase.Login_Test.verifyLoginWithoutCredential(Login_Test.java:57)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=109.0.5414.141)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4dc935af659312def80c0b5816acbd90, clickElement {id=f22f7f34-6ea4-4bff-8b4d-bd5502080b89}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.141, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\VICKY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61595}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61595/devtoo..., se:cdpVersion: 109.0.5414.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4dc935af659312def80c0b5816acbd90)] -&gt; xpath: //a[text()=&apos;Login&apos;]]
+Session ID: 4dc935af659312def80c0b5816acbd90
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at POM.HomePage.clickOnLogin(HomePage.java:31)
+	at TestCase.Login_Test.setUp(Login_Test.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames
+... Removed 39 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -296,34 +392,66 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginWithValidCredential(muruSatJun03153214IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">
-                  </a> <!-- verifyLoginWithValidCredential(muruSatJun03153214IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...) -->
+                  <a name="verifyLoginWithValidCredential(muruSunJun04004336IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">
+                  </a> <!-- verifyLoginWithValidCredential(muruSunJun04004336IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...) -->
                   <span class="method-name">verifyLoginWithValidCredential</span>
-                  <span class="parameters">(muruSatJun03153214IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method))</span>
+                  <span class="parameters">(muruSunJun04004336IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method))</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginWithValidCredential(muruSatJun03153211IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">
-                  </a> <!-- verifyLoginWithValidCredential(muruSatJun03153211IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...) -->
+                  <a name="verifyLoginWithValidCredential(muruSunJun04004330IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">
+                  </a> <!-- verifyLoginWithValidCredential(muruSunJun04004330IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...) -->
                   <span class="method-name">verifyLoginWithValidCredential</span>
-                  <span class="parameters">(muruSatJun03153211IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method))</span>
+                  <span class="parameters">(muruSunJun04004330IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method))</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginWithValidCredential(muruSatJun03153207IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">
-                  </a> <!-- verifyLoginWithValidCredential(muruSatJun03153207IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...) -->
+                  <a name="verifyLoginWithValidCredential(muruTueJun06003130IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">
+                  </a> <!-- verifyLoginWithValidCredential(muruTueJun06003130IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...) -->
                   <span class="method-name">verifyLoginWithValidCredential</span>
-                  <span class="parameters">(muruSatJun03153207IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method))</span>
+                  <span class="parameters">(muruTueJun06003130IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method))</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginWithValidCredential(muruSatJun03153203IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">
-                  </a> <!-- verifyLoginWithValidCredential(muruSatJun03153203IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...) -->
+                  <a name="verifyLoginWithValidCredential(muruSunJun04004308IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">
+                  </a> <!-- verifyLoginWithValidCredential(muruSunJun04004308IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...) -->
                   <span class="method-name">verifyLoginWithValidCredential</span>
-                  <span class="parameters">(muruSatJun03153203IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method))</span>
+                  <span class="parameters">(muruSunJun04004308IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredential(muruSunJun04004323IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">
+                  </a> <!-- verifyLoginWithValidCredential(muruSunJun04004323IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...) -->
+                  <span class="method-name">verifyLoginWithValidCredential</span>
+                  <span class="parameters">(muruSunJun04004323IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredential(muruTueJun06003135IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">
+                  </a> <!-- verifyLoginWithValidCredential(muruTueJun06003135IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...) -->
+                  <span class="method-name">verifyLoginWithValidCredential</span>
+                  <span class="parameters">(muruTueJun06003135IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredential(muruTueJun06003124IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">
+                  </a> <!-- verifyLoginWithValidCredential(muruTueJun06003124IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...) -->
+                  <span class="method-name">verifyLoginWithValidCredential</span>
+                  <span class="parameters">(muruTueJun06003124IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredential(muruSunJun04004316IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)">
+                  </a> <!-- verifyLoginWithValidCredential(muruSunJun04004316IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...) -->
+                  <span class="method-name">verifyLoginWithValidCredential</span>
+                  <span class="parameters">(muruSunJun04004316IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method))</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -331,7 +459,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\kmruge\eclipse-workspace\Ninja_Store_Project\src\test\resources\testng.xml</span>
+            <span class="header-content">C:\Users\VICKY\git\NinjaProject\src\test\resources\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -384,64 +512,84 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(13);
+data.addRows(18);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'RegisterWithAllDetailsProperly')
 data.setCell(0, 2, 'TestCase.Register_Test')
-data.setCell(0, 3, 1503);
+data.setCell(0, 3, 1671);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'RegisterWithAllDetailsProperly')
 data.setCell(1, 2, 'TestCase.Register_Test')
-data.setCell(1, 3, 867);
+data.setCell(1, 3, 995);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'RegisterWithAllDetailsProperly')
 data.setCell(2, 2, 'TestCase.Register_Test')
-data.setCell(2, 3, 859);
+data.setCell(2, 3, 956);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'RegisterWithAllDetailsProperly')
 data.setCell(3, 2, 'TestCase.Register_Test')
-data.setCell(3, 3, 848);
+data.setCell(3, 3, 902);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'RegisterWithAllDetailsProperly')
+data.setCell(4, 1, 'RegisterWithExistEmail')
 data.setCell(4, 2, 'TestCase.Register_Test')
-data.setCell(4, 3, 842);
+data.setCell(4, 3, 887);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'RegisterWithExistEmail')
+data.setCell(5, 1, 'RegisterWithAllDetailsProperly')
 data.setCell(5, 2, 'TestCase.Register_Test')
-data.setCell(5, 3, 743);
+data.setCell(5, 3, 881);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'RegisterWithoutClickingPrivacy')
 data.setCell(6, 2, 'TestCase.Register_Test')
-data.setCell(6, 3, 727);
+data.setCell(6, 3, 878);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'verifyLoginWithValidCredential')
 data.setCell(7, 2, 'TestCase.Login_Test')
-data.setCell(7, 3, 627);
+data.setCell(7, 3, 674);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'verifyLoginWithValidCredential')
 data.setCell(8, 2, 'TestCase.Login_Test')
-data.setCell(8, 3, 625);
+data.setCell(8, 3, 663);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'verifyLoginWithValidCredential')
 data.setCell(9, 2, 'TestCase.Login_Test')
-data.setCell(9, 3, 594);
+data.setCell(9, 3, 657);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'verifyLoginWithValidCredential')
 data.setCell(10, 2, 'TestCase.Login_Test')
-data.setCell(10, 3, 555);
+data.setCell(10, 3, 632);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyLoginWithInvalidCredential')
+data.setCell(11, 1, 'verifyLoginWithValidCredential')
 data.setCell(11, 2, 'TestCase.Login_Test')
-data.setCell(11, 3, 531);
+data.setCell(11, 3, 589);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'verifyLoginWithoutCredential')
+data.setCell(12, 1, 'verifyLoginWithValidCredential')
 data.setCell(12, 2, 'TestCase.Login_Test')
-data.setCell(12, 3, 293);
+data.setCell(12, 3, 545);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyLoginWithValidCredential')
+data.setCell(13, 2, 'TestCase.Login_Test')
+data.setCell(13, 3, 530);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyLoginWithValidCredential')
+data.setCell(14, 2, 'TestCase.Login_Test')
+data.setCell(14, 3, 500);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyLoginWithValidCredential')
+data.setCell(15, 2, 'TestCase.Login_Test')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyLoginWithoutCredential')
+data.setCell(16, 2, 'TestCase.Login_Test')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyLoginWithInvalidCredential')
+data.setCell(17, 2, 'TestCase.Login_Test')
+data.setCell(17, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -474,162 +622,220 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">RegisterWithAllDetailsProperly(void TestCase.Register_Test.RegisterWithAllDetailsProperly(java.lang.reflect.Method))</span>
-                <span class="method-start">3623 ms</span>
+                <span class="method-start">5668 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5129 ms</span>
+                <span class="method-start">7345 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">5384 ms</span>
+                <span class="method-start">8060 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">RegisterWithAllDetailsProperly(void TestCase.Register_Test.RegisterWithAllDetailsProperly(java.lang.reflect.Method))</span>
-                <span class="method-start">7518 ms</span>
+                <span class="method-start">11693 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8378 ms</span>
+                <span class="method-start">12651 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">8615 ms</span>
+                <span class="method-start">13279 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">RegisterWithAllDetailsProperly(void TestCase.Register_Test.RegisterWithAllDetailsProperly(java.lang.reflect.Method))</span>
-                <span class="method-start">11083 ms</span>
+                <span class="method-start">16980 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11932 ms</span>
+                <span class="method-start">17884 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">12178 ms</span>
+                <span class="method-start">18504 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">RegisterWithAllDetailsProperly(void TestCase.Register_Test.RegisterWithAllDetailsProperly(java.lang.reflect.Method))</span>
-                <span class="method-start">14316 ms</span>
+                <span class="method-start">22513 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15160 ms</span>
+                <span class="method-start">23395 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">15440 ms</span>
+                <span class="method-start">24018 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">RegisterWithAllDetailsProperly(void TestCase.Register_Test.RegisterWithAllDetailsProperly(java.lang.reflect.Method))</span>
-                <span class="method-start">17896 ms</span>
+                <span class="method-start">27885 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18764 ms</span>
+                <span class="method-start">28888 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">19018 ms</span>
+                <span class="method-start">29514 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">RegisterWithExistEmail(void TestCase.Register_Test.RegisterWithExistEmail(java.lang.reflect.Method))</span>
-                <span class="method-start">21111 ms</span>
+                <span class="method-start">33386 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21855 ms</span>
+                <span class="method-start">34274 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">22095 ms</span>
+                <span class="method-start">34888 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">RegisterWithoutClickingPrivacy(void TestCase.Register_Test.RegisterWithoutClickingPrivacy(java.lang.reflect.Method))</span>
-                <span class="method-start">24193 ms</span>
+                <span class="method-start">39068 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">24920 ms</span>
+                <span class="method-start">39947 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCase.Login_Test</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">25183 ms</span>
+                <span class="method-start">40642 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyLoginWithValidCredential(muruSatJun03153203IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</span>
-                <span class="method-start">27328 ms</span>
+                <span class="method-name">verifyLoginWithValidCredential(muruSunJun04004308IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</span>
+                <span class="method-start">44676 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">27884 ms</span>
+                <span class="method-start">45351 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">28158 ms</span>
+                <span class="method-start">45991 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyLoginWithValidCredential(muruSatJun03153207IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</span>
-                <span class="method-start">30666 ms</span>
+                <span class="method-name">verifyLoginWithValidCredential(muruSunJun04004316IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</span>
+                <span class="method-start">49863 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">31292 ms</span>
+                <span class="method-start">50394 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">31573 ms</span>
+                <span class="method-start">51019 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyLoginWithValidCredential(muruSatJun03153211IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</span>
-                <span class="method-start">33740 ms</span>
+                <span class="method-name">verifyLoginWithValidCredential(muruSunJun04004323IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</span>
+                <span class="method-start">55467 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">34335 ms</span>
+                <span class="method-start">56013 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">34585 ms</span>
+                <span class="method-start">56632 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyLoginWithValidCredential(muruSatJun03153214IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</span>
-                <span class="method-start">36783 ms</span>
+                <span class="method-name">verifyLoginWithValidCredential(muruSunJun04004330IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</span>
+                <span class="method-start">61085 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37411 ms</span>
+                <span class="method-start">61676 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">37678 ms</span>
+                <span class="method-start">62305 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredential(muruSunJun04004336IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</span>
+                <span class="method-start">65992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">66493 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">67114 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredential(muruTueJun06003124IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</span>
+                <span class="method-start">71299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71963 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">72584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredential(muruTueJun06003130IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</span>
+                <span class="method-start">77076 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77733 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">78350 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredential(muruTueJun06003135IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</span>
+                <span class="method-start">82269 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">82902 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">83522 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredential(muruTueJun06003141IST2023@gmail.com, Mmuru@2004, void TestCase.Login_Test.verifyLoginWithValidCreden...)</span>
+                <span class="method-start">97232 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">97253 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">97255 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
                 <span class="method-name">verifyLoginWithInvalidCredential(void TestCase.Login_Test.verifyLoginWithInvalidCredential(java.lang.reflect.Method))</span>
-                <span class="method-start">39793 ms</span>
+                <span class="method-start">97255 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">40546 ms</span>
+                <span class="method-start">97268 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">40787 ms</span>
+                <span class="method-start">97270 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifyLoginWithoutCredential(void TestCase.Login_Test.verifyLoginWithoutCredential(java.lang.reflect.Method))</span>
-                <span class="method-start">43084 ms</span>
+                <span class="method-start">97271 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">43617 ms</span>
+                <span class="method-start">97282 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
