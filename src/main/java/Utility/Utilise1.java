@@ -2,7 +2,6 @@ package Utility;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.lang.reflect.Method;
@@ -35,9 +34,9 @@ public class Utilise1 {
 		Loginpro=new Properties();
 		Registerpro=new Properties();
 		try {
-			pro.load(new FileInputStream("C:\\Users\\kmruge\\eclipse-workspace\\Ninja_Store_Project\\Files\\PropertiesFile.properties"));
-			Loginpro.load(new FileInputStream("C:\\Users\\kmruge\\eclipse-workspace\\Ninja_Store_Project\\Files\\LoginProperties.properties"));
-			Registerpro.load(new FileInputStream("C:\\Users\\kmruge\\eclipse-workspace\\Ninja_Store_Project\\Files\\RigisterProperties.properties"));
+			pro.load(new FileInputStream("C:\\Users\\VICKY\\git\\NinjaProject\\Files\\PropertiesFile.properties"));
+			Loginpro.load(new FileInputStream("C:\\Users\\VICKY\\git\\NinjaProject\\Files\\LoginProperties.properties"));
+			Registerpro.load(new FileInputStream("C:\\Users\\VICKY\\git\\NinjaProject\\Files\\RigisterProperties.properties"));
 		}catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -69,14 +68,14 @@ public class Utilise1 {
 	//Writing data's in the excel after registration
 	public void ReadingRegistrationDetailsInExcel(String Email, String password) throws IOException
 	{
-		FileInputStream InFile=new FileInputStream("C:\\Users\\kmruge\\eclipse-workspace\\Ninja_Store_Project\\Files\\data.xlsx");
+		FileInputStream InFile=new FileInputStream("C:\\Users\\VICKY\\git\\NinjaProject\\Files\\data.xlsx");
 		XSSFWorkbook book=new XSSFWorkbook(InFile);
 		XSSFSheet sheet=book.getSheet("RegisterCredential1");
 		int lastRow=sheet.getLastRowNum();
 		Row row=sheet.createRow(lastRow+1);
 		row.createCell(0).setCellValue(Email);
 		row.createCell(1).setCellValue(password);
-		File file =new File("C:\\Users\\kmruge\\eclipse-workspace\\Ninja_Store_Project\\Files\\data.xlsx");
+		File file =new File("C:\\Users\\VICKY\\git\\NinjaProject\\Files\\data.xlsx");
 		FileOutputStream outFile=new FileOutputStream(file);
 		book.write(outFile);
 		book.close();
@@ -86,7 +85,7 @@ public class Utilise1 {
 	{
 		String[][] date=null;
 		try {
-		FileInputStream InFile=new FileInputStream("C:\\Users\\kmruge\\eclipse-workspace\\Ninja_Store_Project\\Files\\data.xlsx");
+		FileInputStream InFile=new FileInputStream("C:\\Users\\VICKY\\git\\NinjaProject\\Files\\data.xlsx");
 		XSSFWorkbook book=new XSSFWorkbook(InFile);
 		XSSFSheet sheet=book.getSheet("RegisterCredential1");
 		int lastRow=sheet.getLastRowNum();

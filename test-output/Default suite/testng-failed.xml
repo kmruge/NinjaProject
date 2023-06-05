@@ -5,8 +5,8 @@
     <classes>
       <class name="TestCase.Login_Test">
         <methods>
+          <include name="verifyLoginWithValidCredential"/>
           <include name="tearDown"/>
-          <include name="verifyLoginWithoutCredential" invocation-numbers="0"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- TestCase.Login_Test -->

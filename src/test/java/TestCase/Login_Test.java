@@ -2,22 +2,17 @@ package TestCase;
 
 import java.lang.reflect.Method;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import com.sun.jmx.mbeanserver.Util;
-
-import Base.driverClass;
 import POM.HomePage;
 import Utility.Utilise1;
 import locators.Login_Locators;
-@Listeners(ListenerPack.MyListener.class)
+
 public class Login_Test extends Utilise1 {
+	//I have provided some commends.
 	public Login_Test()
 	{
 		//Calling(Loading) property file from utilise1
@@ -52,7 +47,7 @@ public class Login_Test extends Utilise1 {
 	@Test(priority=3)
 	void verifyLoginWithoutCredential(Method name)
 	{
-		
+
 		findingWebElement(Login_Locators.Submit).click();
 		VerificationAssertion(Loginpro.getProperty("invalidCredentialAlert"),Login_Locators.WithoutCredential,name);
 	}
@@ -62,7 +57,7 @@ public class Login_Test extends Utilise1 {
 		findingWebElement(Login_Locators.Password).sendKeys(password);
 		findingWebElement(Login_Locators.Submit).click();
 	}
-	
+
 	@DataProvider(name="dataExtraction")
 	String[][] InputCredentialFromExcel()
 	{
