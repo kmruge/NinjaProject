@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="11" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-03T15:31:59 IST" name="Suite" finished-at="2023-06-03T15:32:43 IST" duration-ms="44167">
+    <groups>
+    </groups>
+    <test started-at="2023-06-03T15:31:59 IST" name="Test" finished-at="2023-06-03T15:32:43 IST" duration-ms="44167">
+      <class name="TestCase.Login_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:25 IST" name="setUp" finished-at="2023-06-03T15:32:27 IST" duration-ms="2145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:1, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:27 IST" name="verifyLoginWithValidCredential" data-provider="dataExtraction" finished-at="2023-06-03T15:32:27 IST" duration-ms="555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[muruSatJun03153203IST2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mmuru@2004]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[void TestCase.Login_Test.verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredential -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:27 IST" name="tearDown" finished-at="2023-06-03T15:32:28 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:28 IST" name="setUp" finished-at="2023-06-03T15:32:30 IST" duration-ms="2507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:1, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:30 IST" name="verifyLoginWithValidCredential" data-provider="dataExtraction" finished-at="2023-06-03T15:32:31 IST" duration-ms="625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[muruSatJun03153207IST2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mmuru@2004]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[void TestCase.Login_Test.verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredential -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:31 IST" name="tearDown" finished-at="2023-06-03T15:32:31 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:31 IST" name="setUp" finished-at="2023-06-03T15:32:33 IST" duration-ms="2167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:1, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:33 IST" name="verifyLoginWithValidCredential" data-provider="dataExtraction" finished-at="2023-06-03T15:32:34 IST" duration-ms="594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[muruSatJun03153211IST2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mmuru@2004]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[void TestCase.Login_Test.verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredential -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:34 IST" name="tearDown" finished-at="2023-06-03T15:32:34 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:34 IST" name="setUp" finished-at="2023-06-03T15:32:36 IST" duration-ms="2198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:1, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:36 IST" name="verifyLoginWithValidCredential" data-provider="dataExtraction" finished-at="2023-06-03T15:32:37 IST" duration-ms="627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[muruSatJun03153214IST2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mmuru@2004]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[void TestCase.Login_Test.verifyLoginWithValidCredential(java.lang.String,java.lang.String,java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredential -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:37 IST" name="tearDown" finished-at="2023-06-03T15:32:37 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:37 IST" name="setUp" finished-at="2023-06-03T15:32:39 IST" duration-ms="2115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInvalidCredential(java.lang.reflect.Method)[pri:2, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:39 IST" name="verifyLoginWithInvalidCredential" finished-at="2023-06-03T15:32:40 IST" duration-ms="531" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void TestCase.Login_Test.verifyLoginWithInvalidCredential(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assertion Faile at void TestCase.Login_Test.verifyLoginWithInvalidCredential(java.lang.reflect.Method) expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assertion Faile at void TestCase.Login_Test.verifyLoginWithInvalidCredential(java.lang.reflect.Method) expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at Utility.Utilise1.VerificationAssertion(Utilise1.java:67)
+at TestCase.Login_Test.verifyLoginWithInvalidCredential(Login_Test.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredential -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:40 IST" name="tearDown" finished-at="2023-06-03T15:32:40 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:40 IST" name="setUp" finished-at="2023-06-03T15:32:43 IST" duration-ms="2297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithoutCredential(java.lang.reflect.Method)[pri:3, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:43 IST" name="verifyLoginWithoutCredential" finished-at="2023-06-03T15:32:43 IST" duration-ms="293" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void TestCase.Login_Test.verifyLoginWithoutCredential(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assertion Faile at void TestCase.Login_Test.verifyLoginWithoutCredential(java.lang.reflect.Method) expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assertion Faile at void TestCase.Login_Test.verifyLoginWithoutCredential(java.lang.reflect.Method) expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at Utility.Utilise1.VerificationAssertion(Utilise1.java:67)
+at TestCase.Login_Test.verifyLoginWithoutCredential(Login_Test.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutCredential -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Login_Test@1e1a0406]" started-at="2023-06-03T15:32:43 IST" name="tearDown" finished-at="2023-06-03T15:32:43 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.Login_Test -->
+      <class name="TestCase.Register_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:00 IST" name="setUp" finished-at="2023-06-03T15:32:03 IST" duration-ms="3622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RegisterWithAllDetailsProperly(java.lang.reflect.Method)[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:03 IST" name="RegisterWithAllDetailsProperly" finished-at="2023-06-03T15:32:05 IST" duration-ms="1503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void TestCase.Register_Test.RegisterWithAllDetailsProperly(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithAllDetailsProperly -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:05 IST" name="tearDown" finished-at="2023-06-03T15:32:05 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:05 IST" name="setUp" finished-at="2023-06-03T15:32:07 IST" duration-ms="2133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RegisterWithAllDetailsProperly(java.lang.reflect.Method)[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:07 IST" name="RegisterWithAllDetailsProperly" finished-at="2023-06-03T15:32:08 IST" duration-ms="859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void TestCase.Register_Test.RegisterWithAllDetailsProperly(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithAllDetailsProperly -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:08 IST" name="tearDown" finished-at="2023-06-03T15:32:08 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:08 IST" name="setUp" finished-at="2023-06-03T15:32:11 IST" duration-ms="2468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RegisterWithAllDetailsProperly(java.lang.reflect.Method)[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:11 IST" name="RegisterWithAllDetailsProperly" finished-at="2023-06-03T15:32:12 IST" duration-ms="848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void TestCase.Register_Test.RegisterWithAllDetailsProperly(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithAllDetailsProperly -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:12 IST" name="tearDown" finished-at="2023-06-03T15:32:12 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:12 IST" name="setUp" finished-at="2023-06-03T15:32:14 IST" duration-ms="2138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RegisterWithAllDetailsProperly(java.lang.reflect.Method)[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:14 IST" name="RegisterWithAllDetailsProperly" finished-at="2023-06-03T15:32:15 IST" duration-ms="842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void TestCase.Register_Test.RegisterWithAllDetailsProperly(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithAllDetailsProperly -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:15 IST" name="tearDown" finished-at="2023-06-03T15:32:15 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:15 IST" name="setUp" finished-at="2023-06-03T15:32:18 IST" duration-ms="2456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RegisterWithAllDetailsProperly(java.lang.reflect.Method)[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:18 IST" name="RegisterWithAllDetailsProperly" finished-at="2023-06-03T15:32:18 IST" duration-ms="867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void TestCase.Register_Test.RegisterWithAllDetailsProperly(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithAllDetailsProperly -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:18 IST" name="tearDown" finished-at="2023-06-03T15:32:19 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:19 IST" name="setUp" finished-at="2023-06-03T15:32:21 IST" duration-ms="2093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RegisterWithExistEmail(java.lang.reflect.Method)[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:21 IST" name="RegisterWithExistEmail" finished-at="2023-06-03T15:32:21 IST" duration-ms="743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void TestCase.Register_Test.RegisterWithExistEmail(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithExistEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:21 IST" name="tearDown" finished-at="2023-06-03T15:32:22 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:22 IST" name="setUp" finished-at="2023-06-03T15:32:24 IST" duration-ms="2098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RegisterWithoutClickingPrivacy(java.lang.reflect.Method)[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:24 IST" name="RegisterWithoutClickingPrivacy" finished-at="2023-06-03T15:32:25 IST" duration-ms="727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void TestCase.Register_Test.RegisterWithoutClickingPrivacy(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithoutClickingPrivacy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Register_Test@614ca7df]" started-at="2023-06-03T15:32:25 IST" name="tearDown" finished-at="2023-06-03T15:32:25 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.Register_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
